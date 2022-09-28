@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinder.Entites", "HotelFinder.Entites\HotelFinder.Entites.csproj", "{CC421DDE-3F0E-4353-83F5-3D5D65E5265D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelFinder.Entites", "HotelFinder.Entites\HotelFinder.Entites.csproj", "{CC421DDE-3F0E-4353-83F5-3D5D65E5265D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinder.DataAccess", "HotelFinder.DataAccess\HotelFinder.DataAccess.csproj", "{36B89615-9BD5-4044-9486-0724FACBF4F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelFinder.DataAccess", "HotelFinder.DataAccess\HotelFinder.DataAccess.csproj", "{36B89615-9BD5-4044-9486-0724FACBF4F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinder.Business", "HotelFinder.Business\HotelFinder.Business.csproj", "{95D1EF30-219E-4516-9D53-878A6F5EA1DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelFinder.API", "HotelFinder.API\HotelFinder.API.csproj", "{C3E25580-117B-4C80-9E6E-6C97F585E916}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{36B89615-9BD5-4044-9486-0724FACBF4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36B89615-9BD5-4044-9486-0724FACBF4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36B89615-9BD5-4044-9486-0724FACBF4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D1EF30-219E-4516-9D53-878A6F5EA1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D1EF30-219E-4516-9D53-878A6F5EA1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D1EF30-219E-4516-9D53-878A6F5EA1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D1EF30-219E-4516-9D53-878A6F5EA1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E25580-117B-4C80-9E6E-6C97F585E916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E25580-117B-4C80-9E6E-6C97F585E916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E25580-117B-4C80-9E6E-6C97F585E916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E25580-117B-4C80-9E6E-6C97F585E916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
